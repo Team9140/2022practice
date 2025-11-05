@@ -19,4 +19,23 @@ public final class Constants
     {
         public static final int DRIVER_CONTROLLER_PORT = 0;
     }
+
+    public static class IntakeConstants{
+        public static final int KP = 0;
+        public static final int KI = 0;
+        public static final int KD = 0;
+        public static final int KS = 0;
+        public static final int KV = 0;
+        public static final int KA = 0;
+
+        public static final int MOTION_MAGIC_CRUISE_VELOCITY = 0;
+        public static final int MOTION_MAGIC_ACCELERATION = 0;
+
+        public static final int SENSOR_TO_MECHANISM_RATIO = 0;
+
+        public static final int STATOR_CURRENT_LIMIT = 0;
+
+        public static final int FORWARD_SOFT_LIMIT_THRESHOLD = 0;
+        public static final int REVERSE_SOFT_LIMIT_THRESHOLD = 0;
+    }
 }
