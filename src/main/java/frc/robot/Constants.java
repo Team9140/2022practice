@@ -37,5 +37,14 @@ public final class Constants
 
         public static final int FORWARD_SOFT_LIMIT_THRESHOLD = 0;
         public static final int REVERSE_SOFT_LIMIT_THRESHOLD = 0;
+
+        public static final int ARM_OUT_POSITION = 0;
+        public static final int ARM_IN_POSITION = 0;
+
+        public static final int INTAKE_INTAKE_MOTOR_VOLTAGE = 0;//intakeMotor not zero
+        public static final int INTAKE_HOLD_MOTOR_VOLTAGE = 0;//holdMotor always  zero
+
+        public static final int REVERSE_INTAKE_MOTOR_VOLTAGE = 0;//negative
+        public static final int REVERSE_HOLD_MOTOR_VOLTAGE = 0;//negative
     }
 }
